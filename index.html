@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Артем Шеремет</title>
+</head>
+<body>
+  <div class="content">
+    <div class="d-flex gap-5 mt-5 mb-4 flex-wrap">
+      <img src="images/i.jfif" class="photo" alt="Артем Шеремет">
+
+      <!-- GENERAL INFO -->
+      <div class="d-flex justify-content-between flex-grow-1 flex-wrap gap-3">
+        <div class="d-flex flex-column gap-1">
+          <h1>Артём Шеремет</h1>
+          <span><i class="bi bi-geo-alt-fill"></i> Город: Москва, Московская область</span>
+        </div>
+
+        <!-- CONTACTS -->
+        <div class="d-flex flex-column contacts">
+          <a href="tel:+89162970571"><i class="bi bi-telephone-fill"></i> +7 916 297 05 71</a>
+          <a href="mailto:israelian.eva@gmail.com"><i class="bi bi-envelope-fill"></i> battcamm@mail.ru</a>
+          <a href="https://github.com/MusicGuns"><i class="bi bi-github"></i> MusicGuns</a>
+          <a href="https://t.me/scherema"><i class="bi bi-telegram"></i> scherema</a>          
+        </div>
+      </div>
+    </div>
+    
+    <!-- EDUCATION -->
+    <div class="mb-4">
+      <h2 class="font-weight-bold">Образование</h2>
+      <hr>
+      <div class="d-flex justify-content-between">
+        <h4>РТУ МИРЭА (Институт искусственного интеллекта)</h4>
+        <h4>2020 — 2025</h4>
+      </div>
+      <div class="d-flex justify-content-between">
+        <span>Специаист по защите информации</span>
+        <span>Москва, Россия</span>
+      </div>
+    </div>
+
+    <!-- PROFESSIONAL EXPERIENCE -->
+    <!--     
+    <div class="mb-4">
+      <h2>PROFESSIONAL EXPERIENCE</h2>
+      <hr>
+    </div> 
+    -->
+    <div class="mb-4">
+      <h2>О себе</h2>
+      <hr>
+      <p>
+        Привет, меня зовут Артём, Я full-stack разработчик на Ruby on Rails. Готов двигаться вперед и изучать что то новое.
+        С удовольствием берусь за сложные задачи, которые заставляют подумать. Всегда делаю задачи до конца. Могу найти общий язык с разными людьми.
+      </p>
+
+    </div>
+
+    <!-- SKILLS -->
+    <div class="mb-4">
+      <h2>Навыки</h2>
+      <hr>
+      <ul>
+        <li><span class="bold">Programming languages:</span> Ruby, C, Java, Assembler</li>
+        <li><span class="bold">Ruby:</span> Rails, websockets, turbo, RSpec, Capybara, OOP, MVC, REST, DRY, refactoring, code style</li>
+        <li><span class="bold">Frontend Development:</span> HTML, CSS, React, Bootstrap, JavaScript, JQuery</li>
+        <li><span class="bold">Database:</span> PostgreSQL, Redis, SQLite</li>
+        <li><span class="bold">DevOps:</span> Git, Capistrano, Nginx, Docker, Heroku, Linux</li>
+      </ul>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="mb-4">
+      <h2>Проекты</h2>
+      <hr>
+      <div>
+        <div class="d-flex justify-content-between">
+          <h4><a href="https://github.com/MusicGuns/bbq" class="text-dark"><i class="bi bi-link-45deg"></i> Веб-приложение "BBQ"</a></h4>
+        </div>
+        <ul>
+          <li>
+            Приложение создано для организации мероприятий. <a href="http://bbqmaker.space" class="text-dark">BBQ</a> дает возможность создавать мероприятия с указанием даты и места,
+            чтобы другие пользователи могли сообщить организатору, что они собираются посетить мероприятие.
+            Приложение содержит раздел комментариев для участников, чтобы обсудить событие, и фотогалерею, чтобы поделиться фотографиями.
+          </li>
+          <li><span class="bold">Технологии:</span>
+            Ruby, Ruby on Rails, Для рассылки используется ActionMailer и Google почта, Yandex Cloud Storage для хранения фотографиями,
+            Devise and Pundit для авторизации, OmniAuth через Yandex.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="d-flex justify-content-between">
+          <h4><a href="https://github.com/MusicGuns/KHSM" class="text-dark"><i class="bi bi-link-45deg"></i> Веб-приложение "Who wants to be a billionaire"</a></h4>
+        </div>
+        <ul>
+          <li> Приложение с реализацией игры <a href="https://khsm-webapp.herokuapp.com" class="text-dark">Кто хочет стать миллионером</a>. Пользователи могут соревноваться в суммах которые они выиграли.
+            Реализованы все 3 типа подсказок (звонок другу, 50/50, подсказка зала). Администратор может загружать новые в базу.
+          </li>
+          <li><span class="bold">Технологии:</span>
+            Приложение покрыто тестами на модели, контроллеры и фича тестами,
+            Реализация AJAX запроса.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div class="d-flex justify-content-between">
+        <h4><a href="https://github.com/MusicGuns/tron" class="text-dark"><i class="bi bi-link-45deg"></i> Консольная игра "Трон"</a></h4>
+      </div>
+      <ul>
+        <li>Консольная сетевая игра Трон, работающая на фреймбуфере, с возможностью задавать размер игрового поля и с установкой соединения с другим устройством по протоколу UDP </li>
+        <li><span class="bold">Технологии:</span> С, Protocol UDP
+        </li>
+      </ul>
+    </div>
+    
+    <!-- ADDITION -->
+    <div class="mb-4">
+      <h2>Языки</h2>
+      <hr>
+      <ul>
+        <li>Русский: Носитель</li>
+        <li>Английский: advanced</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
